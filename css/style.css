@@ -1,0 +1,13 @@
+
+body{
+    background-image: url("../images/FondoWeb.png");
+}
+
+#cabecera {
+    background-color: black;
+    border: 1px  solid yellow;
+    border-radius: 2px;
+    padding: 15px;
+    overflow: auto;
+    color: yellow;
+}
