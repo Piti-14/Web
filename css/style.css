@@ -53,3 +53,8 @@ body{
     color: whitesmoke;
     background-image:url("../images/0.jpg"); 
 }
+
+#fondoMapa {
+    background-image: url("../images/FondoMapa.jpg");
+    color: white;
+}
