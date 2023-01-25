@@ -4,13 +4,25 @@ body{
     color: white;
 }
 
-#cabecera {
+#content{
+
+}
+
+#header {
+    min-height: 100px;
+    max-height: 200px;
     background-color: black;
     border: 1px  solid yellow;
     border-radius: 2px;
     padding: 5px;
     overflow: auto;
     color: yellow;
+}
+
+#footer{
+    min-height: 50px;
+    max-height: 90px;
+    background-color: darkgrey;
 }
 
 #contactForm {
@@ -38,4 +50,10 @@ body{
 #trailerVideo {
     display: block;
     margin: auto;
+}
+
+#bosses{
+    background-image: url(../images/bosses/FondoBosses.jpg);
+    width: 100%;
+    height: auto;
 }
