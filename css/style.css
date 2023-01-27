@@ -58,3 +58,34 @@ body{
     background-image: url("../images/FondoMapa.jpg");
     color: white;
 }
+
+#map {
+    width: 90%;
+    height: 90%;
+    display: block;
+    margin: auto;
+}
+
+p#textArea {
+    padding-left: 10px;
+}
+
+
+#izquierda{
+    background-image: url("../images/corsair.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 20%;
+}
+
+#derecha{
+    background-image: url("../images/origin.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 20%;
+}
+
+.tableMap{
+    width: 100%;
+    height: 100%;
+}
