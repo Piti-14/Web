@@ -1,7 +1,6 @@
 
 
 body{
-    background-image: url("../images/FondoWeb.png");
     color: white;
 }
 
@@ -42,50 +41,100 @@ body{
 }
 
 #armas {
-    color: black;
+    background-color: black;
+    border: 1px  solid yellow;
+    border-radius: 2px;
+    padding: 5px;
+    overflow: auto;
+    color: yellow;
     text-align: center;
-    font-size: 50px;
-    border: 2px solid red;
-    border-radius: 5px;
+
   }
 
-#FondoArmas {
-    color: whitesmoke;
-    background-image:url("../images/0.jpg"); 
-}
-
-#fondoMapa {
-    background-image: url("../images/FondoMapa.jpg");
+#LetraDesc{
     color: white;
 }
 
-#map {
-    width: 90%;
-    height: 90%;
-    display: block;
-    margin: auto;
+  #FondoArmas {
+    color: black;
+    text-align: justify;
+    background-image: url(../images/FondoArmas.jpg) ;
+    
 }
 
-p#textArea {
-    padding-left: 10px;
+#Espadas{
+    width: 100%;
+    height: 50%;
 }
 
+#pepito{
+    width: 10%;
+    height: 20%;
+}
 
-#izquierda{
-    background-image: url("../images/corsair.png");
-    background-repeat: no-repeat;
-    background-position: center center;
+#haland{
     width: 20%;
+    height: 20%;
 }
 
-#derecha{
-    background-image: url("../images/origin.png");
-    background-repeat: no-repeat;
-    background-position: center center;
+#Textoespadas{
+    text-align: justify;
+}
+.DescArmas{
     width: 20%;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 2;
+    border-radius: 1%;
+    height: 40%;    
 }
-
-.tableMap{
+#TablaArmas{
     width: 100%;
     height: 100%;
+    color: white
 }
+
+#hachas{
+    width: 10%;
+    height: 20%;
+}
+
+#fotoHachas{
+    width: 100%;
+    height: 50%;
+}
+
+#DescHachas{
+    width: 20%;
+    height: 20%;
+}
+
+#martillos{
+    width: 10%;
+    height: 20%;
+}
+
+#fotoMartillo{
+    width: 100%;
+    height: 50%;
+}
+
+#DescMartillos{
+    width: 20%;
+    height: 20%;
+}
+
+#arcos{
+    width: 10%;
+    height: 20%;
+}
+
+#fotoArco{
+    width: 100%;
+    height: 50%;
+}
+
+#DescArcos{
+    width: 20%;
+    height: 20%;
+}
+
