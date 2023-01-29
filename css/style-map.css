@@ -6,7 +6,7 @@ body{
 }
 
 #cabecera {
-    background-color: black;
+    background-color: hsla(120, 0%, 0%, 0.7);
     border: 1px  solid yellow;
     border-radius: 2px;
     padding: 5px;
@@ -15,7 +15,7 @@ body{
 }
 
 #contactForm {
-    background-color: black;
+    background-color: hsla(120, 0%, 0%, 0.7);
     border: 1px  solid red;
     border-radius: 2px;
     padding: 5px;
@@ -76,7 +76,7 @@ body{
     margin-bottom: 40px;
     margin-top: 40px;
     text-align: center;
-    background-color: hsla(120, 0%, 64%, 0.5);
+    background-color: hsla(120, 0%, 60%, 0.5);
 }
 
 #gracia {
