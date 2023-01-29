@@ -15,6 +15,26 @@ body{
     color: yellow;
 }
 
+#HeaderNavButtons {
+    text-align: right;
+    padding-right: 20px;
+    padding-bottom: 40px;
+}
+
+#HeaderNavButtons a {
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.bordered {
+    border: 2px  solid yellow;
+    border-radius: 2px;
+}
+
 #navegacion {
     text-align: right;
     font-size: larger;
@@ -37,11 +57,19 @@ h1, h2, p{
 #textCelda{
     width: 55%;
     height: 50%;
+    padding: 20px;
 }
 
 #bossImageSize{
     width: 600px;
     height: 400px;
+    padding: 10px;
+}
+
+#awardImageSize{
+    width: 400px;
+    height: 300px;
+    padding: 10px;
 }
 
 #table{
@@ -53,7 +81,8 @@ h1, h2, p{
     width: 20%;
     border: 1px solid yellow;
     border-radius: 2px;
-    text-align: center;    
+    text-align: center;
+    padding-right: 20px;   
 }
 
 #center{
@@ -67,6 +96,7 @@ h1, h2, p{
     border: 1px solid yellow;
     border-radius: 2px;
     text-align: center;
+    padding-right: 20px;
 }
 
 #contactForm{
@@ -77,4 +107,3 @@ h1, h2, p{
     overflow: auto;
     color: yellow;
 }
-
